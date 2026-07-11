@@ -1,26 +1,22 @@
 # Bloom Salon
 
-![Bloom Salon](public/opengraph.jpg)
+<p align="center">
+  <img src="public/readme-logo.svg" alt="Bloom Salon logo" width="900" />
+</p>
 
-Bloom Salon is a modern salon website built with React and Vite. It presents the brand, services, appointment flow, contact details, and supporting pages in a polished single-page experience with smooth UI motion and responsive layout.
+Bloom Salon is a premium salon website built with React and Vite. It is designed to feel elegant, clear, and modern, with dedicated pages for services, gallery, about, reviews, contact, and appointments.
 
-## What’s Included
+## Overview
 
-- Luxury-style landing page with a strong hero section
-- Services, gallery, about, reviews, contact, and appointment pages
-- Responsive navigation and floating appointment call to action
-- Theme support and animated interface elements
-- Clean component-based structure for future expansion
+The site focuses on a polished brand presentation, smooth navigation, and a strong booking flow. It combines responsive layouts, subtle motion, and reusable UI components to keep the experience clean on desktop and mobile.
 
-## Pages
+## Key Features
 
-- Home
-- Services
-- Gallery
-- About
-- Reviews
-- Contact
-- Appointment
+- Luxury-style homepage with a strong hero section
+- Dedicated pages for services, gallery, about, reviews, contact, and appointment booking
+- Responsive navbar, footer, and floating booking CTA
+- Animated interface elements for a more premium feel
+- Theme support and reusable component structure
 
 ## Tech Stack
 
@@ -46,13 +42,13 @@ Bloom Salon is a modern salon website built with React and Vite. It presents the
 pnpm install
 ```
 
-### Start Development Server
+### Run the App
 
 ```bash
 pnpm dev
 ```
 
-The app runs on the local Vite server at `http://localhost:5173/` by default.
+The app runs at `http://localhost:5173/` by default.
 
 ### Build for Production
 
@@ -66,7 +62,7 @@ pnpm build
 pnpm serve
 ```
 
-## Available Scripts
+## Scripts
 
 - `pnpm dev` - start the development server
 - `pnpm build` - create a production build
@@ -89,11 +85,12 @@ src/
 public/
   favicon.svg
   opengraph.jpg
+  readme-logo.svg
   robots.txt
 ```
 
 ## Notes
 
-- The app uses the `@/` path alias for imports from `src/`.
-- The homepage image and metadata are set up for a polished public-facing presentation.
-- The repository is organized to stay easy to extend with additional pages or salon features.
+- The project uses the `@/` path alias for imports from `src/`.
+- The README logo is a custom SVG added for GitHub presentation.
+- The app is structured so it can be extended with more salon features later.

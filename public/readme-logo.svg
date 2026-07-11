@@ -1,0 +1,26 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141414"/>
+      <stop offset="1" stop-color="#241411"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="90" y1="60" x2="270" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A65"/>
+      <stop offset="1" stop-color="#FF3C00"/>
+    </linearGradient>
+    <linearGradient id="textGlow" x1="390" y1="120" x2="1060" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7F3"/>
+      <stop offset="1" stop-color="#FFC7B3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="44" fill="url(#bg)"/>
+  <circle cx="210" cy="180" r="118" fill="url(#petal)" fill-opacity="0.18"/>
+  <circle cx="210" cy="180" r="86" fill="url(#petal)" fill-opacity="0.3"/>
+  <circle cx="210" cy="180" r="48" fill="url(#petal)"/>
+  <path d="M210 92C230 122 252 144 282 160C252 176 230 198 210 228C190 198 168 176 138 160C168 144 190 122 210 92Z" fill="url(#petal)"/>
+  <path d="M210 116C224 138 242 156 264 170C242 184 224 202 210 224C196 202 178 184 156 170C178 156 196 138 210 116Z" fill="#FFF7F3" fill-opacity="0.95"/>
+  <circle cx="210" cy="180" r="18" fill="#FF3C00"/>
+  <text x="390" y="155" fill="url(#textGlow)" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="1.5">Bloom Salon</text>
+  <text x="390" y="210" fill="#E4D8D3" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="400" letter-spacing="0.6">Luxury beauty, styling, skincare, and bridal services</text>
+  <rect x="390" y="236" width="420" height="4" rx="2" fill="#FF3C00" fill-opacity="0.9"/>
+</svg>
